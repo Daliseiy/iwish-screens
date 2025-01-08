@@ -99,8 +99,7 @@ class GeneralButton extends StatelessWidget {
         decoration: BoxDecoration(boxShadow: boxShadow),
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
-              onPrimary: textColor,
-              primary: buttonColor,
+              foregroundColor: textColor, backgroundColor: buttonColor,
               padding: padding,
               elevation: 0,
               shape: RoundedRectangleBorder(

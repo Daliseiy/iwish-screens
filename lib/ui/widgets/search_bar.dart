@@ -5,9 +5,9 @@ import 'package:wish_list/utils/widget_size_utils.dart';
 import 'custom_text_form_field.dart';
 import 'icon_container.dart';
 
-class SearchBar extends StatelessWidget {
+class CustomSearchBar extends StatelessWidget {
   final String placeHolder;
-  const SearchBar({Key? key, this.placeHolder = 'Search for keywords'}) : super(key: key);
+  const CustomSearchBar({Key? key, this.placeHolder = 'Search for keywords'}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

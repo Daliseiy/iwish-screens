@@ -39,7 +39,7 @@ class _RequestMoneyFromContactScreenState
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const SearchBar(placeHolder: 'Search for i-wish user'),
+            const CustomSearchBar(placeHolder: 'Search for i-wish user'),
             SizedBox(height: heightSizer(24, context)),
             _InfoCardWithIcon(onTap: () {}),
             SizedBox(height: heightSizer(24, context)),

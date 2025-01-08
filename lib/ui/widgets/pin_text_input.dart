@@ -48,9 +48,9 @@ class PinTextInput extends StatelessWidget {
       obscureText: obscurePin,
       obscuringCharacter: '●',
       useNativeKeyboard: useNativeKeyboard,
-      androidSmsAutofillMethod: AndroidSmsAutofillMethod.smsUserConsentApi,
+      // androidSmsAutofillMethod: AndroidSmsAutofillMethod.smsUserConsentApi,
       forceErrorState: true,
-      separator: SizedBox(width: widthSizer(13, context)),
+      // separator: SizedBox(width: widthSizer(13, context)),
       validator: validator ??
           (value) => Validators.isLength(value, 5, fieldName: "Pin"),
       cursor: Column(

@@ -1,4 +1,4 @@
-# wish_list
+# iwish
 
 A new Flutter project.
 
